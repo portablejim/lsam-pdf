@@ -34,6 +34,8 @@ def print6page( fileName, page ):
   print '\\newpage'
 
 def print1( fileInfo ):
+  print '\section{\'' + fileInfo[0] + '\'}'
+  print '\\newpage'
   for pgNum in range( fileInfo[1] ):
     print1page( fileInfo[0], pgNum + 1)
 
