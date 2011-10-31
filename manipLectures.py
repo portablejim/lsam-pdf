@@ -57,6 +57,7 @@ print '\\thispagestyle{empty}'
 print ''
 print '\\begin{document}'
 print '\\tableofcontents'
+print '\\newpage'
 
 for files in docs:
   if files[1] == 6:
