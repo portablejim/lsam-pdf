@@ -2,20 +2,7 @@
 
 # Format (('<filename>', <number of pages in pdf>), <number of slides per page>
 # Currently only support 1 or 6 slides per page
-docs = [(('01JavaWhyWhat.pdf', 8), 6),
-    (('02LearnJAVAwhite.pdf', 12), 1),
-    (('03IO.pdf', 13), 6),
-    (('04DynamicMemory.pdf', 9), 6),
-    (('05ClassesObjects.pdf', 9), 6),
-    (('06CreateClassObjects.pdf', 12), 6),
-    (('07OODesign.pdf', 11), 6),
-    (('08JDBC.pdf', 8), 6),
-    (('09GraphicUserInterface.pdf', 18), 6),
-    (('11GraphicObjects.pdf', 10), 6),
-    (('13AppletsApplications.pdf', 13), 6),
-    (('14Threads.pdf', 16), 6),
-    (('15JavaSocket.pdf', 22), 6),
-    (('20ME.pdf', 28), 1)]
+docs = []
 
 def print1page( fileName, page ):
   print '\includegraphics[width=20cm,height=15cm,page=' + str(page) + ']{' + fileName + '}'
