@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# Format (('<filename>', <number of pages in pdf>), <number of slides per page>
+# Currently only support 1 or 6 slides per page
 docs = [(('01JavaWhyWhat.pdf', 8), 6),
     (('02LearnJAVAwhite.pdf', 12), 1),
     (('03IO.pdf', 13), 6),
