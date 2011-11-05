@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Format (('<filename>', <number of pages in pdf>), <number of slides per page>
+# Format (('<filename>', <number of pages in pdf>), <number of slides per page>)
 # Currently only support 1 or 6 slides per page
 docs = []
 
